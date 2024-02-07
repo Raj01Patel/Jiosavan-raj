@@ -114,7 +114,7 @@ body {
     font-size: 13px;
 }
 
-.header_middle:hover{
+.header_middle:hover {
     box-shadow: 0 0 5px 2px #0000003a;
 }
 
@@ -402,6 +402,7 @@ body {
     width: 95%;
     margin-top: 30px;
     margin-left: 60px;
+    flex-wrap: wrap;
 }
 
 .footer-container-1 {
@@ -460,16 +461,16 @@ body {
     color: rgb(0, 0, 0);
 }
 
-.bottom-box{
+.bottom-box {
     display: none;
 }
 
-.bottom-box i{
+.bottom-box i {
     font-size: 30px;
     cursor: pointer;
 }
 
-.bottom-box a{
+.bottom-box a {
     color: black;
 }
 
@@ -494,10 +495,10 @@ body {
         height: 85vh;
     }
 
-    .bottom-box{
+    .bottom-box {
         display: block;
         width: 100%;
-        height: 60px;
+        height: 40px;
         background: #f6f6f6;
         display: flex;
         align-items: center;
@@ -525,9 +526,4 @@ body {
         font-weight: 200;
         font-size: 7px;
     }
-
-    footer {
-        display: none;
-    }
-
 }
