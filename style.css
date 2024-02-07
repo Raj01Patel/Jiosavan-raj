@@ -505,6 +505,7 @@ body {
         align-items: center;
         justify-content: space-around;
         position: fixed;
+        bottom: 20px;
     }
 
 }
