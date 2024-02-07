@@ -463,6 +463,7 @@ body {
 
 .bottom-box {
     display: none;
+    position: fixed;
 }
 
 .bottom-box i {
